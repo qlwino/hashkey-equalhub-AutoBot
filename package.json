@@ -1,0 +1,27 @@
+{
+  "name": "hashkey-testnet-bot",
+  "version": "1.0.0",
+  "description": "Automated faucet claimer and USDT/USDC swap bot for Hashkey Testnet",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": [
+    "hashkey",
+    "airdrop",
+    "faucet",
+    "swap",
+    "ethers",
+    "bot"
+  ],
+  "author": "m9lwen",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "chalk": "^5.3.0",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.10.0",
+    "ora": "^7.1.0"
+  }
+}
+
